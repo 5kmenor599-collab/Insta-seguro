@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insta Seguro</title>
+<style>
+body {
+  font-family: Arial;
+  background: #f5eaff;
+  text-align: center;
+  padding: 30px 15px;
+}
+.tarjeta {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  max-width: 350px;
+  margin: auto;
+}
+button {
+  background: #833ab4;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+
+<div class="tarjeta">
+  <h1>Insta Seguro</h1>
+  <p>Aprende a proteger tu cuenta.</p>
+
+  <button onclick="mostrarLeccion()">
+    Comenzar demostración
+  </button>
+
+  <div id="contenido"></div>
+</div>
+
+<script>
+function mostrarLeccion() {
+  document.getElementById("contenido").innerHTML =
+  "<h2>Primera lección</h2>" +
+  "<p>No abras enlaces sospechosos que recibas por mensajes.</p>" +
+  "<p>Comprueba siempre quién te envía el mensaje.</p>";
+}
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,62 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #833ab4, #fd1d8d, #fcb045);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  color: white;
+  font-size: 38px;
+}
+
+.contenedor > p {
+  color: white;
+}
+
+.tarjeta {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px #0003;
+}
+
+.tarjeta h2 {
+  color: #833ab4;
+}
+
+button {
+  background: linear-gradient(90deg, #833ab4, #fd1d8d);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mensaje {
+  color: #833ab4;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+}
